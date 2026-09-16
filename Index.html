@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Talking Rock Creek Chapel</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f7f2e8;
+      color: #2f2f2f;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #243b2f;
+      color: white;
+      padding: 18px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 18px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      min-height: 70vh;
+      background:
+        linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),
+        url('https://images.unsplash.com/photo-1507692049790-de58290a4334?auto=format&fit=crop&w=1600&q=80');
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      padding: 40px 20px;
+    }
+
+    .hero-content {
+      max-width: 800px;
+    }
+
+    .hero h2 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 22px;
+      margin-bottom: 28px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #d7b46a;
+      color: #1f2f26;
+      padding: 13px 24px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      margin: 5px;
+    }
+
+    .button:hover {
+      background: #e6c77f;
+    }
+
+    section {
+      padding: 65px 20px;
+    }
+
+    .container {
+      max-width: 1050px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #243b2f;
+      font-size: 34px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .intro {
+      text-align: center;
+      max-width: 800px;
+      margin: auto;
+      font-size: 18px;
+    }
+
+    .times {
+      background: white;
+      text-align: center;
+    }
+
+    .times-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 20px;
+      margin-top: 35px;
+    }
+
+    .card {
+      background: #f7f2e8;
+      padding: 28px 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,.08);
+    }
+
+    .sermon {
+      background: #e7ebdf;
+      text-align: center;
+    }
+
+    .sermon h3 {
+      font-size: 28px;
+      margin-bottom: 5px;
+    }
+
+    .prayer {
+      background: #243b2f;
+      color: white;
+      text-align: center;
+    }
+
+    .prayer h2 {
+      color: white;
+    }
+
+    .events {
+      text-align: center;
+    }
+
+    footer {
+      background: #1d2c23;
+      color: white;
+      text-align: center;
+      padding: 35px 20px;
+    }
+
+    footer p {
+      margin: 6px 0;
+    }
+
+    @media (max-width: 700px) {
+      header {
+        text-align: center;
+        justify-content: center;
+      }
+
+      nav {
+        width: 100%;
+        margin-top: 12px;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 6px 8px;
+      }
+
+      .hero h2 {
+        font-size: 35px;
+      }
+
+      .hero p {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Talking Rock Creek Chapel</h1>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#sermons">Sermons</a>
+      <a href="#events">Events</a>
+      <a href="#prayer">Prayer</a>
+      <a href="#visit">Visit Us</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h2>Welcome to Talking Rock Creek Chapel</h2>
+
+      <p>Preaching Christ. Teaching Truth. Loving People.</p>
+
+      <a href="#visit" class="button">Plan Your Visit</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>Welcome</h2>
+
+      <p class="intro">
+        Talking Rock Creek Chapel is a church family with a heart for Christ,
+        His Word, and our community. Whether you have attended church your
+        whole life or you are simply looking for a place to begin, we would
+        love to have you worship with us.
+      </p>
+    </div>
+  </section>
+
+  <section class="times" id="visit">
+    <div class="container">
+      <h2>Come Worship With Us</h2>
+
+      <div class="times-grid">
+
+        <div class="card">
+          <h3>Sunday School</h3>
+          <p>Time Coming Soon</p>
+        </div>
+
+        <div class="card">
+          <h3>Sunday Morning Worship</h3>
+          <p>Time Coming Soon</p>
+        </div>
+
+        <div class="card">
+          <h3>Sunday Evening</h3>
+          <p>Time Coming Soon</p>
+        </div>
+
+        <div class="card">
+          <h3>Wednesday Service</h3>
+          <p>Time Coming Soon</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="sermon" id="sermons">
+    <div class="container">
+      <h2>This Week's Message</h2>
+
+      <h3>Stain of the Heart</h3>
+
+      <p><strong>Romans 3:13–18</strong></p>
+
+      <p>Pastor Joshua Sheets</p>
+
+      <p>
+        Join us as we continue through the book of Romans and hear what
+        God's Word teaches about the condition of the human heart and our
+        need for Christ.
+      </p>
+
+      <a href="#" class="button">Watch the Sermon</a>
+    </div>
+  </section>
+
+  <section class="prayer" id="prayer">
+    <div class="container">
+      <h2>How Can We Pray for You?</h2>
+
+      <p>
+        Whatever you are facing, you do not have to face it alone.
+        We would be honored to pray with you.
+      </p>
+
+      <a href="#" class="button">Submit a Prayer Request</a>
+    </div>
+  </section>
+
+  <section class="events" id="events">
+    <div class="container">
+      <h2>What's Happening at TRCC?</h2>
+
+      <p>
+        Keep up with upcoming services, special events, fellowship gatherings,
+        and opportunities to worship together.
+      </p>
+
+      <a href="#" class="button">View Upcoming Events</a>
+    </div>
+  </section>
+
+  <footer>
+    <h3>Talking Rock Creek Chapel</h3>
+
+    <p>Preaching Christ. Teaching Truth. Loving People.</p>
+
+    <p>Talking Rock, Georgia</p>
+
+    <p>© 2026 Talking Rock Creek Chapel</p>
+  </footer>
+
+</body>
+</html>
